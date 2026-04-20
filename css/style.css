@@ -1,4 +1,62 @@
-/* 4 */
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.colors {
+    display: flex;
+    gap: 15px; 
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px; 
+    border: 2px solid #333; 
+    cursor: pointer;
+    font-size: 16px;
+    background: white;
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background: rgb(66, 234, 234);
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.count {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fifth_task,
+.count,
+#btn,
+.user {
+    margin-top: 30px;
+}
+
+.user{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 /* .timer {
     display: flex;
     justify-content: center;
@@ -20,7 +78,7 @@ button {
 
 /* 5 */
 
-.block {
+/* .block {
     width: 150px;
     height: 150px;
     border: 2px solid #333;
@@ -29,4 +87,4 @@ button {
 
 .active {
     background-color: #3498db; 
-}
+} */
